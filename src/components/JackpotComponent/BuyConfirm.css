@@ -1,0 +1,80 @@
+.buyPointOneSpan {
+  font-family: "Ropa Sans";
+  font-weight: 500;
+  font-size: 16px;
+}
+.buyPointOneSpanOne {
+  font-family: "Ropa Sans";
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
+}
+.buyoneBox {
+  background-color: #edf2f7;
+  border-radius: 10px;
+  border: 1px solid;
+}
+.buyoneBoxmini {
+  background-color: #edf2f7;
+  border-radius: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+  background-color: transparent;
+  border: 2px solid transparent;
+  font-family: "Ropa Sans";
+  padding-top: 10px;
+  /* font-size: 18px; */
+}
+input[type="number"]:focus {
+  -moz-appearance: textfield; /* Firefox */
+  background-color: transparent;
+  border: 2px solid transparent;
+  font-family: "Ropa Sans";
+  outline: none !important;
+  box-shadow: none;
+  /* border:1px solid red; */
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  /* color: red; */
+  opacity: 1; /* Firefox */
+  font-family: "Ropa Sans";
+  font-size: 22px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  /* color: red; */
+  font-family: "Ropa Sans";
+  font-size: 18px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  /* color: red; */
+  font-family: "Ropa Sans";
+  font-size: 18px;
+}
+.InsufficientText {
+  color: tomato;
+  font-family: "Ropa Sans";
+}
+.InsufficientTextOne {
+  font-family: "Ropa Sans";
+}
+
+/* .form-control {
+  padding: 0px !important;
+  line-height: 0.5 !important;
+} */
+/* input[type="number"] {
+  font-size: 16px;
+} */
